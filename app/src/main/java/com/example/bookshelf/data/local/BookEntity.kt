@@ -1,4 +1,5 @@
 package com.example.bookshelf.data.local
+// Database entity for Book
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

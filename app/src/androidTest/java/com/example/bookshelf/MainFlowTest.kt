@@ -19,6 +19,8 @@ import org.junit.runner.RunWith
 @LargeTest
 class MainFlowTest {
 
+    // UI test for main user flow
+
     @Test
     fun addBook_thenOpenDetails_works() {
         ActivityScenario.launch(MainActivity::class.java)

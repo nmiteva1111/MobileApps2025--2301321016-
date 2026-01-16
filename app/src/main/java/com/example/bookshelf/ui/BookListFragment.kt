@@ -23,7 +23,10 @@ import com.example.bookshelf.ui.list.BookListViewModel
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 
+// Search and genre filter logic
+
 class BookListFragment : Fragment(R.layout.fragment_book_list) {
+
 
     private lateinit var adapter: BookAdapter
     private lateinit var viewModel: BookListViewModel
